@@ -1,0 +1,18 @@
+# ==========================================
+# Robots.txt untuk bantukamituhan.github.io
+# ==========================================
+
+User-agent: *
+Allow: /
+Allow: /id/
+Allow: /assets/
+
+# Abaikan folder sistem Jekyll
+Disallow: /_layouts/
+Disallow: /_includes/
+Disallow: /_sass/
+Disallow: /_posts/
+Disallow: /vendor/
+
+# Link ke Sitemap (Sangat Penting untuk Indexing)
+Sitemap: https://bantukamituhan.github.io/id/sitemap.xml
