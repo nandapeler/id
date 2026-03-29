@@ -1,5 +1,5 @@
 # ==========================================
-# Robots.txt untuk bantukamituhan.github.io
+# Robots.txt untuk nandapeler.github.io
 # ==========================================
 
 User-agent: *
@@ -15,4 +15,4 @@ Disallow: /_posts/
 Disallow: /vendor/
 
 # Link ke Sitemap (Sangat Penting untuk Indexing)
-Sitemap: https://bantukamituhan.github.io/id/sitemap.xml
+Sitemap: https://nandapeler.github.io/id/sitemap.xml
