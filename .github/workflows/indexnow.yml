@@ -1,0 +1,16 @@
+name: IndexNow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send IndexNow Notification
+        run: |
+          curl -X GET "https://www.bing.com/indexnow?url=https://nandapeler.github.io/id//sitemap.xml&key=8572b9a7c6d44e80823719274028681d"
+          curl -X GET "https://search.google.com/indexnow?url=https://nandapeler.github.io/id/sitemap.xml&key=8572b9a7c6d44e80823719274028681d"
