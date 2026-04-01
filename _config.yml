@@ -1,0 +1,6 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+include:
+  - sitemap.xml
